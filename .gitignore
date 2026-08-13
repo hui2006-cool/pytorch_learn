@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===== Project-specific (added for GitHub upload) =====
+# Large CIFAR-10 datasets — too big / not source code (GitHub caps files at 100MB)
+cifar-10-python.tar.gz
+cifar-10-python/
+cifar-10-batches-py/
+
+# TensorBoard / training logs — binary event files, not source
+log1/
+logs/
+logs2/
+logs3/
+logs_maxpool/
+logs_nonlinear_activation/
+logs_sequential/
